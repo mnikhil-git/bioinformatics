@@ -183,7 +183,7 @@ def HammingDistance(p, q):
 # Input:  Strings Pattern and Text along with an integer d
 # Output: A list containing all starting positions where Pattern appears
 # as a substring of Text with at most d mismatches
-def ApproximatePatternMatching(Text, Pattern, d):
+def ApproximatePatternMatchingPositions(Text, Pattern, d):
     positions = [] # initializing list of positions
     # your code here
     pattern_length = len(Pattern)
@@ -192,6 +192,18 @@ def ApproximatePatternMatching(Text, Pattern, d):
         if HammingDistance(Pattern, K_mer) <= d:
             positions.append(i)
     return positions
+
+
+def ApproximatePatternMatches(Text, Pattern, d):
+    approx_patterns = {} # initializing list of positions
+    # your code here
+    pattern_length = len(Pattern)
+    for i in range(len(Text)-len(Pattern)+1):
+        K_mer=Text[i:i+pattern_length]
+        if HammingDistance(Pattern, K_mer) <= d:
+            approx_patterns[K_mer] = 0
+    return approx_patterns.keys()
+
 
 
 def ApproximatePatternCount(Pattern, Text, d):

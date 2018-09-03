@@ -11,6 +11,8 @@
 * BioInformatics - I
   * [Finding Hidden Messages in DNA](https://www.coursera.org/learn/dna-analysis/home/welcome)
   * [DNA Structure and Replication](https://www.youtube.com/watch?v=8kK2zwjRV0M)
+  * [Week 1](https://stepik.org/lesson/1/step/1/toc?unit=8230)
+  * [Week 2](https://stepik.org/lesson/5/step/1/toc?unit=8221)
 
 
 * BioInformatics - II
@@ -27,3 +29,4 @@
 * Links and References:
   * [Ori-Finder](http://tubic.tju.edu.cn/Ori-Finder/)
   * [Awesome-BioInformatics](https://github.com/danielecook/Awesome-Bioinformatics/blob/master/README.md)
+  * [Rosalind Solutions from Niema](https://github.com/niemasd/Algorithm-Problem-Solutions/tree/master/ROSALIND%20Solutions)
