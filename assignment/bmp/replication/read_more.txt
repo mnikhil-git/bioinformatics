@@ -1,0 +1,9 @@
+# What is a dnaA box?
+
+# What is a dnaA protein?
+
+# what is a K-mer?
+
+# what is a viral vector?
+
+# where is OriC and where is terminator in DNA?
